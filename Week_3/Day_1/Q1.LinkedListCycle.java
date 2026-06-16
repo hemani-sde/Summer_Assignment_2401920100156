@@ -1,7 +1,7 @@
 import java.util.HashSet;
 
 class Solution {
-    public boolean hasCycle(ListNode head) {
+     public boolean hasCycle(ListNode head) {
         HashSet<ListNode> seen = new HashSet<>();
 
         ListNode curr = head;
